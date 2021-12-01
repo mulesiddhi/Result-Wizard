@@ -1,0 +1,38 @@
+Body {  
+    font-family: Times New Roman, Times, serif;  
+    background-color: rgb(8, 63, 87); 
+  }  
+  table {
+    width: 70%;
+    border: 2px solid;
+  }
+  
+  th {
+    height: 30px;
+    text-align: left;
+    padding: 15px;
+    background-color: #83a2f7;
+    color: black;
+  }
+  
+  td {
+    height: 30px;
+    text-align: left;
+    padding: 15px;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  i{
+      font-size: 50px;
+      
+  }
+  a{
+      color:wheat;
+  }
+/*   
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  } */

@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder,.btn::-webkit-input-placeholder {
+  color: #eeebe7;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder,.btn:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder ,.btn::-moz-placeholder{
+  color: #f0efee;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder,.btn:focus::-moz-placeholder {
+  color: #eedbc9;
+}
+
+input::placeholder, textarea::placeholder,.btn::placeholder {
+  color: #e7e6e4;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea:focus::placeholder ,.btn:focus::placeholder{
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder ,.btn::-ms-placeholder{
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder,.btn:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder,.btn:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder,.btn:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder,.btn:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder,.btn:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder ,.btn:hover::placeholder{
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder,.btn:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder,.btn:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder ,.btn:hover:focus::-ms-placeholder {
+  color: #cbc6c1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(8, 63, 87); 
+  color: #b9b3b3;
+}
+
+header {
+  
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+  position: absolute;             /* new */
+      left: 50%;
+      transform: translateX(-50%);
+  flex: 0 1 auto;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input,.btn {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 500px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #c2c2c2;
+  
+  border: solid 1px #ffbcbc;
+  border-radius: 5px;
+  
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover , .btn:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 500px;
+  
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #c2c2c2;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #ffbcbc;
+  border-radius: 5px;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 500px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #424141;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+.form-control{
+  padding-top: 10px;
+}
+i{
+    font-size: 50px;
+    
+}
+a{
+    color:wheat;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0 25px 0;
+    position: relative; 
+
+
+}
+.back{
+    flex: 0 1 auto;
+    margin-right: auto;
+}
