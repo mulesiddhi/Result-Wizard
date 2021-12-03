@@ -11,6 +11,11 @@
     $mail = new PHPMailer();
 ?>
 <?php 
+
+
+
+ 
+
 if(isset($_POST['submit'])){
 $mail->isSMTP();
 $mail->Host = "smtp.gmail.com";
@@ -19,7 +24,7 @@ $mail->SMTPSecure = "ssl";
 $mail->Port = 465;
 
 $mail->Username = "siddhimule05@gmail.com";
-$mail->Password = "";   //include password
+$mail->Password = "deftcage2908";   //include password
 $mail->isHTML(TRUE);
 $subject=$_POST['subject'];
 $mail->Subject ='Contact Us';
@@ -35,7 +40,7 @@ if (isset($_FILES['attachment']['name']) && $_FILES['attachment']['name'] != "")
 
 $mail->Body ='<h1>Thank you for contacting us</h1>
 <p>Your message has been received. We will get back to you as soon as possible.</p>
-<p>'.$message.'</p>';
+<p><h2>Your Message: '.$message.'</p>';
 
 $mail->addAttachment($file);
 

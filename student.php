@@ -10,6 +10,7 @@
      <title>Result Wizard</title>
 </head>
 <body >
+
   <?php
   // $name=$rollnumber=$email='' ;
   session_start();

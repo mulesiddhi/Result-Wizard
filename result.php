@@ -12,6 +12,8 @@
 </head>
 <body>
     <?php
+	  
+	 
     session_start();
     $_SESSION['id']=$_GET['id'];
     $_SESSION['name']=$_GET['name'];
