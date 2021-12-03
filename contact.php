@@ -24,7 +24,7 @@ $mail->SMTPSecure = "ssl";
 $mail->Port = 465;
 
 $mail->Username = "siddhimule05@gmail.com";
-$mail->Password = "deftcage2908";   //include password
+$mail->Password = "";   //include password
 $mail->isHTML(TRUE);
 $subject=$_POST['subject'];
 $mail->Subject ='Contact Us';
